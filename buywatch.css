@@ -1,0 +1,146 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+#banner{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/pexels-cátia-matos-1072179.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.header{
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	z-index: 10;
+	background-color:transparent ;
+
+}
+.navbar{
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+.logo img{
+	padding-left: 10px;
+
+}
+.logo{
+	flex-basis: 100%;
+}
+.navbar #list{
+	display: flex;
+	margin: auto;
+
+}
+.navbar #list li{
+	margin: 40px;
+	list-style-type: none;
+	background-color:#F39C12 ;
+	padding: 10px;
+	box-shadow: inset 3px 3px 12px rgba(0, 0, 0, 0.6);
+	border: 2px solid #873600;
+	border-radius: 50px;
+	
+}
+.navbar #list li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.navbar #list li:hover{
+	border:2px solid white;
+	background-color: transparent;
+}
+.product{
+	position: absolute;
+	height: 800px;
+	width: 50%;
+	margin-top: 8%;
+	margin-left: 50%;
+	border-radius: 20px;
+	background-size: cover;
+
+}
+.product img{
+	background-size: cover;
+	border: 2px  dotted white;
+	border-radius: 20px;
+	position: absolute;
+	height: 500px;
+	width: 57%;
+	margin-top: 100px;
+	margin-left: 20%;
+}
+.details{
+	position: absolute;
+	height: 700px;
+	width: 45%;
+	margin-top: 10%;
+	margin-left: 80px;
+	border-radius: 20px;
+	background-color:transparent;
+	background-size: cover;
+}
+.details h1{
+	color: #F39C12;
+	font-size: 60px;
+	font-family: unset;
+	font-weight: 900;
+	padding-top: 100px;
+	padding-left: 100px;
+}
+.details p{
+	color: white;
+	padding-left: 100px;
+}
+.details h3{
+	color: #F39C12;
+	padding-left: 100px;
+	padding-top: 170px;
+	font-size: 40px;
+	font-weight: bolder;
+	font-family: monospace;
+}
+.details button{
+	margin-top: 30px;
+	margin-left: 90px;
+	color: black;
+	background-color: #F39C12;
+	padding: 10px;
+	width: 20%;
+	font-family: unset;
+	font-weight: 900;
+	border: 2px solid #BA4A00;
+	border-radius: 20px;
+	box-shadow: inset 5px 5px 20px rgba(0, 0, 0, 0.9);
+}
+.details button: hover{
+	background-color: transparent;
+	border: 2px solid white;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

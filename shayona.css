@@ -1,0 +1,298 @@
+*{
+	padding: 0;
+	margin: 0;
+	font-family: sans-serif;
+}
+#banner{
+	height: 100vh;
+	width: 100%;
+	background-image: url(images/pexels-cátia-matos-1072179.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.banner-text{
+	width: 70%;
+	position: absolute;
+	top: 35%;
+	left: 50%;
+	transform: translate(-50%,-55%);
+	color: #F39C12;
+	text-align: center;
+}
+.banner-text h1{
+	display: block;
+	font-size: 40px;
+	line-height: 50px;
+	margin-bottom: 40px;
+
+}
+.banner-text span{
+	font-size: 60px;
+	color: #D35400;
+	font-family: cursive;
+}
+#button{
+	background-color:#D35400 ;
+	padding:10px 20px;
+	border: 2px solid #873600;
+	box-shadow: inset 3px 3px 12px rgba(0, 0, 0, 0.6);
+	border-radius: 20px;
+	color: white;
+	font-weight: bolder;
+}
+#button a{
+	color: white;
+	text-decoration: none;
+}
+#button:hover{
+	background-color: transparent;
+	border: 2px solid white;
+}
+#button{
+	cursor: pointer;
+}
+.header{
+	top: 0;
+	position: fixed;
+	width: 100%;
+	height: 80px;
+	z-index: 10;
+	background-color:transparent ;
+
+}
+.navbar{
+	width: 100%;
+	margin: auto;
+	display: flex;
+}
+.logo img{
+	padding-left: 10px;
+
+}
+.logo{
+	flex-basis: 100%;
+}
+.navbar #list{
+	display: flex;
+	margin: auto;
+
+}
+.navbar #list li{
+	margin: 40px;
+	list-style-type: none;
+	background-color:#F39C12 ;
+	padding: 10px;
+	border: 2px solid #873600;
+	box-shadow: inset 3px 3px 12px rgba(0, 0, 0, 0.6);
+	border-radius: 50px;
+	
+}
+.navbar #list li a{
+	color: white;
+	text-decoration: none;
+	font-size: 15px;
+	font-weight: bolder;
+}
+.navbar #list li:hover{
+	border:2px solid white;
+	background-color: transparent;
+}
+.rakhi{
+	top: 50%;
+	position: absolute;
+	border-radius: 18px;
+	height: 450px;
+	width: 300px;
+	margin-left: 10%;
+}
+
+.rakhi img{
+	border-radius: 18px;
+}
+.rakhi li{
+	text-align: left;
+	list-style-type: none;
+	color: white;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+.rakhi #buy{
+
+	background-color:#D35400 ;
+	margin-left: 10%;
+	margin-top: 10px;
+	height: 30px;
+	width: 100px;
+	border: 2px solid #873600;
+	box-shadow:inset 3px 3px 12px rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	color: white;
+	font-size: 12px;
+	float: left;
+}
+.rakhi #buy a{
+	color: white;
+	text-decoration: none;
+}
+.rakhi #buy:hover{
+	background-color: transparent;
+	border: 2px solid white;
+}
+.rakhi #add{
+	background-color:#D35400 ;
+	margin-left: 10%;
+	margin-top: 10px;
+	height: 30px;
+	width: 100px;
+	border: 2px solid #873600;
+	box-shadow:inset 3px 3px 12px rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	color: white;
+	font-size: 12px;
+	float: left;
+}
+.rakhi #add:hover{
+	background-color: transparent;
+	border: 2px solid white;
+}
+.rakhi #buy{
+	cursor: pointer;
+}
+.rakhi #add{
+	cursor: pointer;
+}
+.shoe{
+	top: 50%;
+	position: absolute;
+	border-radius: 18px;
+	height: 450px;
+	width: 300px;
+	margin-left: 30%;
+}
+.shoe img{
+	border-radius: 18px;
+}
+.shoe li{
+	text-align: left;
+	list-style-type: none;
+	color: white;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+.shoe #buy{
+
+	background-color:#D35400 ;
+	margin-left: 10%;
+	margin-top: 10px;
+	height: 30px;
+	width: 100px;
+	border: 2px solid #873600;
+	box-shadow:inset 3px 3px 12px rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	color: white;
+	font-size: 12px;
+	float: left;
+}
+.shoe #buy a{
+	color: white;
+	text-decoration: none;
+}
+.shoe #buy:hover{
+	background-color: transparent;
+	border: 2px solid white;
+}
+.shoe #add{
+	background-color:#D35400 ;
+	margin-left: 10%;
+	margin-top: 10px;
+	height: 30px;
+	width: 100px;
+	border: 2px solid #873600;
+	box-shadow:inset 3px 3px 12px rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	color: white;
+	font-size: 12px;
+	float: left;
+}
+.shoe #add:hover{
+	background-color: transparent;
+	border: 2px solid white;
+}
+.shoe #buy{
+	cursor: pointer;
+}
+.shoe #add{
+	cursor: pointer;
+}
+.watch{
+	top: 50%;
+	position: absolute;
+	border-radius: 18px;
+	height: 450px;
+	width: 300px;
+	margin-left: 50%;
+}
+.watch img{
+	border-radius: 18px;
+}
+.watch li{
+	text-align: left;
+	list-style-type: none;
+	color: white;
+	padding-top: 30px;
+	padding-left: 10px;
+}
+.watch #buy{
+
+	background-color:#D35400 ;
+	margin-left: 10%;
+	margin-top: 10px;
+	height: 30px;
+	width: 100px;
+	border: 2px solid #873600;
+	box-shadow:inset 3px 3px 12px rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	color: white;
+	font-size: 12px;
+	float: left;
+}
+.watch #buy a{
+	color: white;
+	text-decoration: none;
+}
+.watch #buy:hover{
+	background-color: transparent;
+	border: 2px solid white;
+}
+.watch #add{
+	background-color:#D35400 ;
+	margin-left: 10%;
+	margin-top: 10px;
+	height: 30px;
+	width: 100px;
+	border: 2px solid #873600;
+	box-shadow:inset 3px 3px 12px rgba(0, 0, 0, 0.7);
+	border-radius: 20px;
+	color: white;
+	font-size: 12px;
+	float: left;
+}
+.watch #add:hover{
+	background-color: transparent;
+	border: 2px solid white;
+}
+.watch #buy{
+	cursor: pointer;
+}
+.watch #add{
+	cursor: pointer;
+}
+
+/*.dropdown-content{
+	position: relative;
+	display: inline-block;
+}*/
+
+
+
+
